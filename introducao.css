@@ -1,0 +1,61 @@
+.bg-image {
+  background-image: url(Imagens/Imagens/bg-Space.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+}
+#introducao {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+.bg-conteudo-header {
+  width: 408px;
+  margin: 52px auto;
+  background: linear-gradient(
+    180deg,
+    rgba(56, 56, 56, 0.5) 55.21%,
+    rgba(55, 55, 55, 0.185) 100%
+  );
+  border-radius: 25px;
+}
+.rocket {
+  grid-column: 2;
+  margin: 52px auto;
+  width: 500px;
+}
+.transicao {
+  margin-top: 0px;
+  width: 100%;
+  height: 27px;
+  background: linear-gradient(180deg, rgba(84, 84, 84, 0) 0%, #545454 53.12%);
+}
+
+/* Conteúdo Bg-Conteudo*/
+.bg-conteudo-header h2 {
+  margin: 20px;
+  color: #f7f7f7;
+  font-size: 3.25rem;
+}
+
+.bg-conteudo-header p {
+  margin: 20px;
+  color: #e3e3e3;
+  font-size: 1.25rem;
+}
+
+.bg-conteudo-header .btn {
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  .bg-image {
+    min-width: 450px;
+  }
+  .bg-conteudo-header {
+    grid-column: span 2;
+  }
+  .rocket {
+    display: none;
+  }
+}

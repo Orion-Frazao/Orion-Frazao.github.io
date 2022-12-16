@@ -1,0 +1,19 @@
+footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #b8b8b8;
+
+  background: #545454;
+
+  padding: 4px 0px;
+  text-align: center;
+}
+
+footer img {
+  display: inline-block;
+  margin: 0px 8px;
+}

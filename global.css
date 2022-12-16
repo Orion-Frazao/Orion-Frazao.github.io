@@ -1,0 +1,56 @@
+body {
+  font-family: roboto, poppins, sans-serif;
+  margin: 0px auto;
+  min-width: 400px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+
+  font-weight: 700;
+  font-size: 1rem;
+
+  background: #5d2e8e;
+  box-shadow: 3px 3px 10px #663797;
+  border-radius: 4px;
+}
+
+.btn a {
+  color: #f7f7f7;
+}
+
+.btn:hover {
+  background: #412263;
+}
+
+.btn img {
+  width: 14px;
+}

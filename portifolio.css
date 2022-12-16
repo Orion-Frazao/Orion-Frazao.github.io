@@ -1,0 +1,132 @@
+#portifolio {
+  padding: 60px 42px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+.port-text-content {
+  margin: 0px auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.port-text-content h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1, 75rem;
+  line-height: 42px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+.port-text-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #000000;
+}
+.btn {
+  align-self: flex-start;
+  margin-top: 28px;
+}
+.port-port {
+  margin: 0px auto;
+}
+
+.port-port-box {
+  border: 1px solid #c4a4e5;
+  border-radius: 4px;
+  background: #f7f0ff;
+  padding: 8px;
+  margin: 20px 0px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.port-port-box-II {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.port-port-box h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+.port-port-box p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #000000;
+}
+
+.btn-port {
+  background: #dfc5fb;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 8px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #5d2e8e;
+}
+
+@media (max-width: 1000px) {
+  #portifolio {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+  .port-text-content {
+    width: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+  }
+  .port-text-content p {
+    width: 300px;
+  }
+  .port-text-content .btn {
+    grid-column: 2;
+    grid-row: 1/2;
+  }
+}
+@media (max-width: 900px) {
+  .port-text-content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  .port-text-content {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .port-port-box {
+    width: 400px;
+  }
+  .port-port-box-I {
+    flex-wrap: nowrap;
+  }
+  .port-port-box-II {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}

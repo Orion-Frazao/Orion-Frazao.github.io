@@ -1,0 +1,228 @@
+#sobre {
+  background-color: #545454;
+  padding: 52px 42px;
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.sobre-info {
+  margin: auto;
+  grid-column: 1;
+  width: 300px;
+}
+
+.sobre-info-1 {
+  margin-bottom: 28px;
+}
+
+.sobre-info-1 h2 {
+  color: #f7f7f7;
+  font-size: 1.75rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.015em;
+}
+
+.sobre-info-1 p {
+  color: #e3e3e3;
+  margin-top: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+}
+
+.sobre-info-2 {
+  background-color: #383838;
+  margin-bottom: 28px;
+  border-radius: 4px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+.sobre-info-2 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 42px;
+  letter-spacing: 0.015em;
+  color: #a882cf;
+  grid-column: 1;
+}
+.sobre-info-2 img {
+  grid-column: 2;
+  margin: auto 4px;
+}
+.sobre-info-2 p {
+  color: #f7f0ff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+}
+.box-info {
+  grid-column: 2;
+  max-width: 500px;
+  min-width: 400px;
+}
+.btn-folder {
+  display: inline-flex;
+  background-color: #383838;
+  box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px 15px 0px 0px;
+  padding: 8px 10px;
+  margin-left: 20px;
+}
+.btn-folder a {
+  color: #a882cf;
+}
+.btn-folder a:hover {
+  color: #919191;
+}
+.btn-folder img {
+  margin: auto 10px;
+  display: inline;
+}
+.bg-box-info {
+  position: relative;
+  background-color: #383838;
+  padding: 52px 60px;
+  border-radius: 4px;
+  width: 495px;
+  height: 224px;
+}
+
+.box-info-academico {
+  display: grid;
+  grid-template-columns: 2;
+  gap: 25px;
+  margin: auto;
+}
+
+.box-info-academico-content {
+  grid-area: 1;
+  display: grid;
+  background-color: #d3d3d3;
+  border-radius: 4px;
+  border-left: 4px solid #8b63b5;
+  padding: 8px 8px 16px 16px;
+  width: 200px;
+  height: 200px;
+}
+
+.box-info-academico-content h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+.box-info-academico-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+.box-info-local {
+  align-self: end;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.box-info-date {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000000;
+}
+
+@media (max-width: 1000px) {
+  #sobre {
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+  }
+  .sobre-info {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 40px;
+    justify-content: center;
+  }
+  .sobre-info-1 {
+    grid-column: 1;
+    width: 400px;
+  }
+  .sobre-info-2 {
+    grid-column: 2;
+    width: 400px;
+  }
+  .sobre-info-2 img {
+    display: none;
+  }
+  .sobre-info .btn {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: left;
+    align-self: top;
+    margin-bottom: 40px;
+  }
+  .box-info {
+    margin: 0px auto;
+    grid-column: 1;
+  }
+  .btn-folder {
+    grid-column: 2;
+    justify-content: center;
+  }
+}
+@media (max-width: 900px) {
+  .sobre-info {
+    grid-template-columns: 1;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .sobre-info-1 {
+    grid-column: 1;
+  }
+  .sobre-info-2 {
+    grid-column: 1;
+  }
+  .sobre-info-2 img {
+    display: inline-flex;
+  }
+  .sobre-info .btn {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: left;
+    align-self: top;
+    margin-bottom: 40px;
+  }
+  .bg-box-info {
+    height: auto;
+  }
+  .box-info-academico {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: auto;
+  }
+  .bg-box-info {
+    width: 230px;
+  }
+}

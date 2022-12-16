@@ -1,0 +1,75 @@
+#contato {
+  background-color: #383838;
+  padding: 52px 60px 52px 120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row: auto;
+}
+.contato-foto {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  margin: 0px auto;
+}
+.info-contato {
+  margin: 0px auto;
+}
+.info-contato h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 50px;
+  letter-spacing: 0.015em;
+  color: #f7f7f7;
+}
+.info-contato h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #e3e3e3;
+}
+.info-contato-links {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 24px;
+}
+.info-contato-link-individual {
+  display: flex;
+  gap: 8px;
+  margin: 4px 0px;
+}
+.info-contato-link-individual p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #b8b8b8;
+}
+.info-links {
+  grid-column: 2;
+  margin: 28px auto auto 0px;
+  display: flex;
+  gap: 40px;
+}
+.info-links img {
+  width: 25px;
+  height: 25px;
+}
+.contato-deco {
+  grid-column: 3;
+  grid-row: 1/2;
+  width: 160px;
+  height: 222.2px;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .contato-foto {
+    display: none;
+  }
+}
