@@ -50,12 +50,19 @@
 
 @media (max-width: 800px) {
   .bg-image {
-    min-width: 450px;
+    min-width: 400px;
+    margin: 0px auto;
   }
   .bg-conteudo-header {
     grid-column: span 2;
   }
   .rocket {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .bg-conteudo-header {
+    width: 350px;
   }
 }

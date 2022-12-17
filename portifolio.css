@@ -130,3 +130,15 @@
     align-items: flex-end;
   }
 }
+@media (max-width: 500px) {
+  .port-port {
+    width: 300px;
+  }
+  .port-port-box {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .port-port-box-II {
+    justify-content: flex-start;
+  }
+}

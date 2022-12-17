@@ -226,3 +226,24 @@
     width: 230px;
   }
 }
+@media (max-width: 450px) {
+  #sobre {
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .btn-folder {
+    margin-left: 50px;
+  }
+  .bg-box-info {
+    margin: 0px auto;
+  }
+  .sobre-info-1 {
+    width: 300px;
+  }
+  .sobre-info-2 {
+    width: 300px;
+  }
+  .sobre-info-2 img {
+    display: none;
+  }
+}

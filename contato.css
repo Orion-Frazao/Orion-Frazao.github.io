@@ -69,7 +69,13 @@
   align-items: center;
 }
 @media (max-width: 900px) {
+  #contato {
+    justify-content: flex-start;
+  }
   .contato-foto {
+    display: none;
+  }
+  .contato-deco {
     display: none;
   }
 }
